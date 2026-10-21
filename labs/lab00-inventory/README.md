@@ -1,6 +1,5 @@
 # Lab 0 — Inventory your own machine
 
-Pair: <фамилия 1> / <фамилия 2> Driver first half: <кто>
 Machine: Lenovo laptop, Windows
 Date: 21.10.2026
 

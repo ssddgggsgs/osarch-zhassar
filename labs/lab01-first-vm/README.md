@@ -1,24 +1,29 @@
 # Lab 1 — Your first virtual machine
 
-Pair:                     Driver first half:
-Machine:
-Date:
+Machine: Lenovo laptop, Windows
+Date: 10.21.2026
 
-## What I did
+## what i did
 
-Steps, with commands in code blocks. Not prose about the steps.
+i created an ubuntu server virtual machine in vmware. my computer has an intel core i5 processor and 16 gb ram. i gave the vm 2 cpu cores, 2048 mb ram and 25 gb disk space. i think it is enough for ubuntu and windows to work at the same time.
 
-```
-<command>
-<output, trimmed>
-```
+i installed ubuntu and made a snapshot called clean install. then i removed the hostname file to make a problem in the system. after that i restarted the vm and restored the snapshot.
 
-## Result
+## result
 
-## What did not work the first time
+the vm worked and i was able to restore the system using the snapshot.
 
-At least one thing. What I saw, what it turned out to be, what I did about it.
+## what did not work the first time
 
-## Evidence
+i had some problems during the snapshot restoration, but i continued working with the same virtual machine.
 
-- [evidence/](evidence/) — one line per file on what it proves
+## evidence
+
+1. vm settings screenshot
+2. ubuntu version information
+3. screenshot of the broken system
+4. snapshot list screenshot
+
+## conclusion
+
+i learned how to install ubuntu in vmware, create a snapshot and restore the system after a problem.

@@ -1,0 +1,5 @@
+file -bi staff-broken.csv: charset=unknown-8bit (may vary by system)
+Detected by testing KZ-1048 decoding: valid Kazakh and Russian names
+Encoding: KZ-1048
+Line endings: CRLF
+BOM: none

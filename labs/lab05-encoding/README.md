@@ -1,24 +1,42 @@
-# Lab 5 — Encoding forensics
+# lab 5 - encoding forensics
 
-Pair:                     Driver first half:
-Machine:
-Date:
+machine: windows 11 
+date: 12.11.2026
 
-## What I did
+## what i did
 
-Steps, with commands in code blocks. Not prose about the steps.
+first, i checked the broken csv file to find the problem. some kazakh and russian letters were not showing correctly.
 
+i checked the file encoding, line endings and the first 16 bytes.
+
+the original encoding was kz-1048. the file used crlf line endings and had no bom.
+
+then i used a python script to convert the file to utf-8 with bom and lf line endings.
+
+```powershell
+py .\scripts\fix.py
 ```
-<command>
-<output, trimmed>
-```
 
-## Result
+## result
 
-## What did not work the first time
+the script worked and created a new file called `staff-fixed.csv`.
 
-At least one thing. What I saw, what it turned out to be, what I did about it.
+i opened the new file in excel and the names looked normal. the kazakh and russian letters were correct.
 
-## Evidence
+the original file was not deleted.
 
-- [evidence/](evidence/) — one line per file on what it proves
+## what did not work the first time
+
+at first, python did not work when i typed `python` in powershell. windows said python was not found.
+
+i tried using `py` instead and it worked. after that, the script converted the file.
+
+## evidence
+
+- `evidence/staff-broken.csv` - original file
+- `evidence/staff-fixed.csv` - fixed file
+- `evidence/file-before.txt` - information before fixing
+- `evidence/file-after.txt` - information after fixing
+- `evidence/hexdump-before.txt` - first 16 bytes
+- `evidence/excel-check.png` - csv opened in excel
+- `scripts/fix.py` - script used to fix the file

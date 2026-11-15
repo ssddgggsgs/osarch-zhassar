@@ -51,5 +51,3 @@ i included one monitor and a licensed windows 11 home retail copy for each pc. t
 planned cost: 2,624,468 kzt.
 
 money left from 3,000,000 kzt: 375,532 kzt.
-
-this is not a final purchase quote because the monitors have no confirmed price.

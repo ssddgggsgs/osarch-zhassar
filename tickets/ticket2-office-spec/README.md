@@ -1,40 +1,58 @@
+# ticket 2 - we are kitting out the new office
+
 ## 1. what was asked
 
-> we are opening the second office and need four computers — accountant, sales, web developer, designer. budget 3,000,000 tenge for everything. everyone says we should just buy the same four machines, is that right? make sure they last a few years. monitors included.
+> from: daniyar k. (director)
+>
+> subject: computers for the new office
+>
+> we are opening the second office and need four computers - accountant, sales, web developer, designer. budget 3,000,000 tenge for everything. everyone says we should just buy the same four machines, is that right? make sure they last a few years. monitors included.
 
 ## 2. what was actually needed
 
-i don't think four same computers are the best idea. the accountant mainly uses office apps, but the designer needs more graphics power. the web developer also needs more ram for different programs.
+i think buying four same computers is not the best idea. every worker has different tasks. the accountant mainly uses office programs, but the designer needs a better graphics card. the web developer also needs more ram for different programs.
 
-the request did not say what software the workers use, if they need wifi, what monitor size they want, or what windows license the office needs. i would ask about these things first. for now i assumed one monitor per person, 1 tb ssd and at least 16 gb ram for everyone. i used a separate windows license for each pc in the budget.
+the request did not say what programs the workers use, if they need wifi, or what monitor size they want. i would ask these questions before buying.
+
+i decided that every computer should have at least 16 gb ram, 1 tb ssd, a monitor and a windows license.
 
 ## 3. what i did
 
-i checked computer prices at pressplay and windows prices at shop.kz on 2026-11-15. i chose two basic office computers and two stronger ones. i compared the tasks and tried to keep the total under 3 million tenge.
+i checked computer prices at pressplay and windows prices at shop.kz on 2026-11-15.
 
-the planned cost is **2,624,468 kzt**, including a 65,000 kzt monitor estimate for each desk. the remaining amount is **375,532 kzt**. the monitor estimate still needs a real quote, so this is a draft budget.
+i selected four computers for different office tasks. i chose two basic computers for the accountant and sales worker, and two stronger computers for the developer and designer.
 
-full choices are in [builds.md](builds.md) and prices are in [budget.csv](budget.csv).
+the total planned budget is **2,624,468 kzt**, including monitors and windows licenses. the remaining budget is **375,532 kzt**.
+
+the monitor prices are estimated at 65,000 kzt each, so they need to be confirmed before buying.
+
+full computer choices are in [builds.md](builds.md) and prices are in [budget.csv](budget.csv).
 
 ### which computer would i upgrade in 18 months?
 
-i would upgrade the sales computer to 32 gb ram first. many browser tabs and calls can use a lot of memory.
+i would upgrade the sales computer first. i would increase the ram from 16 gb to 32 gb because many browser tabs, excel files and video calls can use a lot of memory.
 
 ### what if we buy pre-built computers?
 
-i priced four pre-built system units from pressplay. their total is **2,032,508 kzt** before monitors and windows. ready computers are easier to order and usually come with a system warranty. but we cannot choose every part, and some have parts we don't really need, like the developer's graphics card. a custom build may be cheaper, but it needs more time and testing. a true custom-parts price comparison is still missing.
+i selected four pre-built computers from pressplay. their total price is **2,032,508 kzt** without monitors and windows.
+
+pre-built computers are easier to buy and usually have a warranty for the whole system. custom computers give more freedom to choose parts and may cost less, but they take more time to build and test.
+
+for this office, pre-built computers are a simple choice because they are ready to use after setup.
 
 ### who may complain in the first month?
 
-i think the sales worker may complain if too many tabs and video calls are open. 16 gb ram may become the limit.
+i think the sales worker may complain first. if they open many browser tabs, excel files and video calls at the same time, 16 gb ram may not be enough.
 
 ## 4. evidence
 
-- [budget.csv](budget.csv) - prices, links and dates
-- [builds.md](builds.md) - why i chose each computer
-- [evidence/vendor-quotes/price-notes.md](evidence/vendor-quotes/price-notes.md) - shop listings and missing checks
-- [evidence/pcpartpicker-links.md](evidence/pcpartpicker-links.md) - note about custom build links
+- [budget.csv](budget.csv) - computer prices, sources and dates
+- [builds.md](builds.md) - computer choices and reasons
+- [price-notes.md](evidence/price-notes.md) - shop information and price notes
+- [pcpartpicker-links.md](evidence/pcpartpicker-links.md) - computer comparison notes
 
 ## 5. what i would do differently
 
-next time i would ask each worker which apps they use before choosing the pc. i would also get real monitor quotes and check the windows license with the off
+next time i would ask every worker what programs they use before choosing computers. i would also check monitor prices and windows licenses before making the final budget.
+
+i learned that buying the same computer for everyone is not always a good idea. different workers need different parts, and it is important to think about their tasks and the total budget.

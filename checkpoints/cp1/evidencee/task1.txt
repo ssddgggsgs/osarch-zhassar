@@ -1,0 +1,45 @@
+
+
+Name                          : 12th Gen Intel(R) Core(TM) i5-1235U
+NumberOfCores                 : 10
+NumberOfLogicalProcessors     : 12
+VirtualizationFirmwareEnabled : False
+VMMonitorModeExtensions       : False
+
+
+
+
+
+
+Caption                : Microsoft Windows 11 Pro
+Version                : 10.0.26200
+TotalVisibleMemorySize : 16495096
+FreePhysicalMemory     : 6731584
+
+
+
+
+
+
+Number         : 0
+FriendlyName   : Micron MTFDKCD512QFM-1BD1AABLA
+Size           : 512110190592
+PartitionStyle : GPT
+
+
+
+
+
+
+Size          : 510941720576
+SizeRemaining : 232404344832
+
+
+
+
+
+--- older lab00 disk evidence (Get-PhysicalDisk / Get-Disk) ---
+FriendlyName: Micron MTFDKCD512QFM-1BD1AABLA
+MediaType: SSD
+BusType: NVMe
+Size: 512110190592 bytes
